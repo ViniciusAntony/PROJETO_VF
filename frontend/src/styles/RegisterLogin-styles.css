@@ -1,0 +1,183 @@
+
+.container-title-registerlogin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wrap-title-registerlogin {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+    background-color: #38589d;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.title-registerlogin {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-right: auto;
+}
+
+.container-registerlogin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-registerlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 370px;
+    background-color: white;
+    overflow: auto;
+}
+
+.backgrond-registerlogin {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.7 );
+    z-index: 1000;
+}
+
+
+.wrap-input-registerlogin {
+    width: 40%;
+    position: relative;
+    background-color: white;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.input-registerlogin {
+    font-size: 15;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.input-registerlogin:focus {
+    outline: 0;
+}
+
+.focus-input-registerlogin {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+    color: #adadad;
+}
+
+.focus-input-registerlogin::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.focus-input-registerlogin::after {
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.2;
+
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+
+    padding-left: 5px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.input-registerlogin:focus + .focus-input-registerlogin::before {
+    width: 100%;
+}
+
+.input-registerlogin:focus + .focus-input-registerlogin::after {
+    top: -15px;
+}
+
+.has-val + .focus-input-registerlogin::after {
+    top: -15px;
+}
+
+.has-val + .focus-input-registerlogin::before {
+    width: 100%;
+}
+
+
+.registerlogin-form-btn {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+
+}
+
+.registerlogin-btn {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #38589d;
+
+    line-height: 3.5;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+
+    width: 130px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cancel-registerlogin-btn {
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #DCDCDC;
+
+    text-transform: uppercase;
+    line-height: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}

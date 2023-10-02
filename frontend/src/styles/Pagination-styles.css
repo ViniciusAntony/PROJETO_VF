@@ -1,0 +1,30 @@
+
+.pagination-btn {
+    font-size: 12px;
+    border: none;
+    text-decoration: nome;
+
+    color: white;
+    background-color: #38589d;
+
+    line-height: 3;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+
+    width:70px;
+    height: 38px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pagination:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.pagination-link:visited {
+    color: white;
+}

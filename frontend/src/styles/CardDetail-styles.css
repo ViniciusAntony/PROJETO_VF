@@ -1,0 +1,93 @@
+
+.backgrond-DetailCard {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+}
+
+.container-title-DetailCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.wrap-title-DetailCard {
+    width: 1000px;
+    height: 60px;
+    background-color: #38589d;
+    padding: 0 55px 33px 55px;
+}
+
+.title-DetailCard {
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container-DetailCard {
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  
+.wrap-DetailCard {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    padding: 0 55px 33px 55px;
+}
+  
+.image-section {
+    flex: 1;
+    margin-top: 25px;
+}
+  
+.rounded-image {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+  
+.info-section {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+  
+.info-field {
+    margin-bottom: 10px;;
+    font-size: 18px;
+}
+
+.DetailCard-btn {
+    font-size: 15px;
+    border: none;
+
+    color: white;
+    background-color: #38589d;
+
+    align-items: center;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: auto;
+}  

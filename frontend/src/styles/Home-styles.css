@@ -1,0 +1,9 @@
+
+.cards-box {
+    display: flex;
+    justify-content: center;
+    border: 5px white;
+}
+
+
+    

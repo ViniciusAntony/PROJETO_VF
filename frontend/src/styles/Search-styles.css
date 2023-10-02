@@ -1,0 +1,24 @@
+
+.input-search {
+    width: 40%;
+    border: 2px solid #38589d;
+    padding: 0 5px;
+}
+
+.search-btn {
+    font-size: 15px;
+    border: none;
+
+    color: white;
+    background-color: #38589d;
+
+    line-height: 3.5;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
